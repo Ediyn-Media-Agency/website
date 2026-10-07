@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ediyn Media Agency | Video Editing, Branding & Reel Design</title>
+
+  <!-- SEO & Open Graph Meta Tags -->
+  <meta name="description"
+    content="Ediyn Media Agency is a premier creative agency specializing in video editing, branding, reel editing, and digital growth for healthcare, real estate, and e-commerce.">
+  <meta name="keywords"
+    content="video editing agency, reel editing, branding, graphic design, social media growth, doctor video marketing">
+  <meta name="author" content="Ediyn Media Agency">
+
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ediyn Media Agency — Video Editing, Branding & Growth">
+  <meta property="og:description"
+    content="Trusted by 3,000+ active clients and 5,000+ served. Cinematic edits, sharp thumbnails, and content that converts.">
+  <meta property="og:image" content="assets/brand/Ediyn-media-agency.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/brand/favicon.png">
+  <link rel="apple-touch-icon" href="assets/brand/favicon.png">
+
+  <!-- Google Fonts: Poppins & Inter (with local system fallback) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800;900&family=Sora:wght@600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Lucide Icons via CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ==================== HEADER / NAVBAR ==================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo-link" aria-label="Ediyn Media Agency Home">
+        <img src="assets/brand/Ediyn-media-agency.jpg" alt="Ediyn Media Agency Logo" class="brand-logo-img">
+        <div class="brand-name">EDIYN <span>MEDIA</span></div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav aria-label="Primary Navigation">
+        <ul class="desktop-nav">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#team" class="nav-link">Team</a></li>
+          <li><a href="#reviews" class="nav-link">Reviews</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header CTA -->
+      <div class="nav-cta-wrap">
+        <a href="https://wa.me/916268366771?text=Hi%20Ediyn%20Media%20Agency%2C%20I%27d%20like%20to%20discuss%20a%20video%20editing%20project."
+          target="_blank" rel="noopener noreferrer" class="btn btn-primary nav-cta-desktop" id="headerQuoteBtn">
+          <i data-lucide="message-square" style="width: 18px; height: 18px;"></i>
+          Get a Quote
+        </a>
+
+        <!-- Hamburger Toggle -->
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Overlay & Drawer -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+  <aside class="mobile-nav-drawer" id="mobileNavDrawer" aria-label="Mobile Navigation">
+    <ul class="mobile-nav-list">
+      <li><a href="#hero" class="nav-link mobile-link">Home</a></li>
+      <li><a href="#about" class="nav-link mobile-link">About</a></li>
+      <li><a href="#services" class="nav-link mobile-link">Services</a></li>
+      <li><a href="#team" class="nav-link mobile-link">Team</a></li>
+      <li><a href="#reviews" class="nav-link mobile-link">Reviews</a></li>
+      <li><a href="#contact" class="nav-link mobile-link">Contact</a></li>
+    </ul>
+    <div style="margin-top: auto; padding-top: 1.5rem;">
+      <a href="https://wa.me/916268366771?text=Hi%20Ediyn%20Media%20Agency%2C%20I%27d%20like%20to%20discuss%20a%20video%20editing%20project."
+        target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp"
+        style="width: 100%; justify-content: center;">
+        <i data-lucide="phone-call" style="width: 18px; height: 18px;"></i>
+        Chat on WhatsApp
+      </a>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-motif"></div>
+      <div class="hero-timeline-lines"></div>
+
+      <div class="container hero-content">
+        <div class="section-tag dark">
+          <i data-lucide="sparkles" style="width: 16px; height: 16px;"></i>
+          Premier Creative & Media Agency
+        </div>
+
+        <h1 class="hero-headline">
+          Ediyn Media Agency — <span class="gradient-text">Video Editing</span>, Branding & Growth for Real Businesses
+        </h1>
+
+        <p class="hero-subheadline">
+          Trusted by 3,000+ active clients and 5,000+ served across healthcare, real estate, and e-commerce. Cinematic
+          edits, sharp thumbnails, and content that converts.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="https://wa.me/916268366771?text=Hi%20Ediyn%20Media%20Agency%2C%20I%27d%20like%20to%20discuss%20a%20video%20editing%20project."
+            target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" id="heroWhatsAppBtn">
+            <i data-lucide="message-circle" style="width: 20px; height: 20px;"></i>
+            WhatsApp Us Now
+          </a>
+          <a href="#reviews" class="btn btn-secondary" id="heroWorkBtn">
+            <i data-lucide="play-circle" style="width: 20px; height: 20px;"></i>
+            View Our Work
+          </a>
+        </div>
+
+        <!-- Trust Stats Strip (Intersection Observer Counter) -->
+        <div class="trust-strip">
+          <div class="stat-item">
+            <div class="stat-number" data-target="3000" data-suffix="+">3,000+</div>
+            <div class="stat-label">Active Clients</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="5000" data-suffix="+">5,000+</div>
+            <div class="stat-label">Clients Served</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-text="30–60">30–60</div>
+            <div class="stat-label">Person Team</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT US SECTION ==================== -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-copy-wrap">
+            <div class="section-tag light">
+              <i data-lucide="shield-check" style="width: 15px; height: 15px;"></i>
+              About Our Agency
+            </div>
+            <h2 class="section-title">Delivering High-Impact Creative Services That Drive Real Growth</h2>
+            <p class="about-text">
+              Ediyn Media Agency is a professional creative agency specializing in video editing, graphic design,
+              branding, and digital marketing solutions. With a rapidly growing client base of 3,000+ active clients and
+              experience working with 5,000+ clients to date, we have built a strong reputation for delivering
+              high-quality, professional creative services across multiple industries — from doctors and hospitals to
+              real estate businesses, entrepreneurs, and dropshipping brands.
+            </p>
+
+            <div class="about-highlights">
+              <div class="about-highlight-item">
+                <i data-lucide="check-circle-2"></i>
+                <span>Industry-leading turnaround time</span>
+              </div>
+              <div class="about-highlight-item">
+                <i data-lucide="check-circle-2"></i>
+                <span>Tailored high-converting formats</span>
+              </div>
+              <div class="about-highlight-item">
+                <i data-lucide="check-circle-2"></i>
+                <span>Dedicated project managers</span>
+              </div>
+              <div class="about-highlight-item">
+                <i data-lucide="check-circle-2"></i>
+                <span>Strict quality control benchmarks</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-image-card">
+            <img src="assets/brand/Ediyn-media-agency.jpg" alt="Ediyn Media Agency" loading="lazy">
+            <div class="about-badge">
+              <div class="badge-icon">
+                <i data-lucide="award" style="width: 20px; height: 20px;"></i>
+              </div>
+              <div class="badge-text">
+                5,000+ Clients<br><span style="color: var(--color-accent); font-weight: 700;">Successfully Served</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== OUR TEAM & EXPERTISE ==================== -->
+    <section class="team-expertise-section" id="expertise">
+      <div class="container">
+        <div class="text-center">
+          <div class="section-tag light">
+            <i data-lucide="users" style="width: 15px; height: 15px;"></i>
+            Our Team & Expertise
+          </div>
+          <h2 class="section-title">A Specialized Team Engineered for Scale</h2>
+        </div>
+
+        <div class="expertise-intro-card">
+          <p class="expertise-intro-text">
+            Our organization is powered by a dedicated team of 30–60 experienced professionals — including skilled video
+            editors and specialists in graphic design, branding, and marketing. Every member of our team brings hands-on
+            industry experience and strong expertise in their respective fields. We've worked with numerous doctors,
+            creators, entrepreneurs, and business owners, giving us a deep understanding of diverse content needs and
+            the ability to deliver polished, industry-standard results every time.
+          </p>
+        </div>
+
+        <div class="expertise-cards-grid">
+          <div class="expertise-card">
+            <div class="card-icon-wrap">
+              <i data-lucide="users-2"></i>
+            </div>
+            <h4>30–60 Person Team</h4>
+            <p>Skilled video editors, motion artists, graphic designers, and marketing strategists working in sync.</p>
+          </div>
+
+          <div class="expertise-card">
+            <div class="card-icon-wrap">
+              <i data-lucide="trending-up"></i>
+            </div>
+            <h4>3,000+ Active Clients</h4>
+            <p>Long-term recurring partnerships relying on daily and weekly content pipelines with consistent quality.
+            </p>
+          </div>
+
+          <div class="expertise-card">
+            <div class="card-icon-wrap">
+              <i data-lucide="check-check"></i>
+            </div>
+            <h4>5,000+ Clients Served</h4>
+            <p>A proven track record delivering thousands of viral videos, visual identities, and campaign creatives.
+            </p>
+          </div>
+
+          <div class="expertise-card">
+            <div class="card-icon-wrap">
+              <i data-lucide="layers"></i>
+            </div>
+            <h4>Multi-Industry Expertise</h4>
+            <p>Specialized domain knowledge spanning Healthcare, Real Estate, E-Commerce, and Personal Brands.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SERVICES SECTION ==================== -->
+    <section class="services-section dark-section" id="services">
+      <div class="container">
+        <div class="text-center">
+          <div class="section-tag dark">
+            <i data-lucide="clapperboard" style="width: 15px; height: 15px;"></i>
+            What We Do
+          </div>
+          <h2 class="section-title">End-to-End Creative & Video Solutions</h2>
+          <p class="section-subtitle">
+            From viral short-form retention edits to complete visual branding systems, we craft media assets that
+            capture attention and build authority.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- 1. Video Editing -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i data-lucide="video"></i>
+            </div>
+            <h3>Video Editing</h3>
+            <p>Reels, YouTube long-form, cinematic pacing, sound design, dynamic transitions, and engaging subtitles
+              tailored for audience retention.</p>
+          </div>
+
+          <!-- 2. Branding -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i data-lucide="palette"></i>
+            </div>
+            <h3>Branding</h3>
+            <p>Complete logo design, typography systems, color guides, and cohesive visual identity that makes your
+              business instantly recognizable.</p>
+          </div>
+
+          <!-- 3. Digital Marketing / Social Growth -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i data-lucide="bar-chart-3"></i>
+            </div>
+            <h3>Digital Marketing & Growth</h3>
+            <p>Data-backed content strategy and distribution for doctors, real estate firms, and direct-to-consumer
+              (D2C) brands seeking scalable reach.</p>
+          </div>
+
+          <!-- 4. Reel Editing -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i data-lucide="smartphone"></i>
+            </div>
+            <h3>Reel & Shorts Editing</h3>
+            <p>High-energy short-form edits engineered with trend-aware hooks, pacing, kinetic typography, and sound
+              effects for Instagram & YouTube.</p>
+          </div>
+
+          <!-- 5. Thumbnail Design -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i data-lucide="image"></i>
+            </div>
+            <h3>Thumbnail Design</h3>
+            <p>High-CTR custom YouTube and social media thumbnails designed using psychological contrast and expression
+              hierarchy to maximize clicks.</p>
+          </div>
+
+          <!-- 6. Marketing Creatives -->
+          <div class="service-card">
+            <div class="service-icon">
+              <i data-lucide="layout-grid"></i>
+            </div>
+            <h3>Marketing Creatives</h3>
+            <p>High-converting posters, promotional graphics, carousel slides, and paid ad creatives optimized for
+              social campaign ROI.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== LEADERSHIP SECTION ==================== -->
+    <section class="leadership-section" id="team">
+      <div class="container">
+        <div class="text-center">
+          <div class="section-tag light">
+            <i data-lucide="crown" style="width: 15px; height: 15px;"></i>
+            Agency Leadership
+          </div>
+          <h2 class="section-title">The Vision Behind Ediyn Media Agency</h2>
+          <p class="section-subtitle">
+            Guided by founders dedicated to delivering world-class visual storytelling and measurable client growth.
+          </p>
+        </div>
+
+        <div class="leadership-grid">
+          <!-- Leader 1 -->
+          <div class="leader-card">
+            <div class="leader-avatar">SY</div>
+            <h3>Sahil Yadav</h3>
+            <span class="leader-role">Founder</span>
+            <p class="leader-bio">Leads the agency's creative and client-strategy direction.</p>
+          </div>
+
+          <!-- Leader 2 -->
+          <div class="leader-card">
+            <div class="leader-avatar">TS</div>
+            <h3>Tanmay Singh Rajput</h3>
+            <span class="leader-role">Co-Founder</span>
+            <p class="leader-bio">Leads the agency's operations and video production standards.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CLIENT REVIEWS / PROOF (CAROUSEL) ==================== -->
+    <section class="reviews-section dark-section" id="reviews">
+      <div class="container">
+        <div class="text-center">
+          <div class="section-tag dark">
+            <i data-lucide="message-square-quote" style="width: 15px; height: 15px;"></i>
+            Real Client Proof
+          </div>
+          <h2 class="section-title">Trusted by Leading Professionals</h2>
+          <p class="section-subtitle">
+            Direct feedback and project results from the doctors, hospital networks, and enterprises we partner with.
+          </p>
+        </div>
+
+        <!-- Horizontal Carousel -->
+        <div class="carousel-outer-wrapper">
+          <div class="reviews-carousel-track-container" id="carouselTrackContainer">
+            <div class="reviews-carousel-track" id="carouselTrack">
+
+              <!-- Review 1: Dr. Almas Saba -->
+              <div class="review-card-item">
+                <div class="testimonial-text-card">
+                  <div class="testimonial-card-header">
+                    <div class="review-stars" aria-label="5 out of 5 stars">
+                      <i data-lucide="star" class="star-icon"></i>
+                      <i data-lucide="star" class="star-icon"></i>
+                      <i data-lucide="star" class="star-icon"></i>
+                      <i data-lucide="star" class="star-icon"></i>
+                      <i data-lucide="star" class="star-icon"></i>
+                    </div>
+                    <div class="quote-badge">
+                      <i data-lucide="quote" style="width: 18px; height: 18px;"></i>
+                    </div>
+                  </div>
+                  <p class="review-body-text">
+                    "Your works are amazing. I have been working with you for around 1 year, and your team’s skills are amazing. My channel has grown around 78% this year."
+                  </p>
+                  <div class="reviewer-profile">
+                    <div class="reviewer-avatar">AS</div>
+                    <div class="reviewer-info">
+                      <div class="reviewer-name">Dr. Almas Saba</div>
+                      <div class="reviewer-role">Healthcare</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Review 2: Chumbak Shopping Destination -->
+              <div class="review-card-item">
+                <div class="testimonial-text-card">
+                  <div class="testimonial-card-header">
+                    <div class="review-stars" aria-label="5 out of 5 stars">
+                      <i data-lucide="star" class="star-icon"></i>
+                      <i data-lucide="star" class="star-icon"></i>
+                      <i data-lucide="star" class="star-icon"></i>
+                      <i data-lucide="star" class="star-icon"></i>
+                      <i data-lucide="star" class="star-icon"></i>
+                    </div>
+                    <div class="quote-badge">
+                      <i data-lucide="quote" style="width: 18px; height: 18px;"></i>
+                    </div>
+                  </div>
+                  <p class="review-body-text">
+                    "Your work is really amazing. Everything is up to date as per you said."
+                  </p>
+                  <div class="reviewer-profile">
+                    <div class="reviewer-avatar">CS</div>
+                    <div class="reviewer-info">
+                      <div class="reviewer-name">Chumbak Shopping Destination</div>
+                      <div class="reviewer-role">Retail / E-Commerce</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Review 3: Dr. Shweta Verma -->
+              <div class="review-card-item">
+                <div class="testimonial-text-card">
+                  <div class="testimonial-card-header">
+                    <div class="review-stars" aria-label="5 out of 5 stars">
+                      <i data-lucide="star" class="star-icon"></i>
+                      <i data-lucide="star" class="star-icon"></i>
+                      <i data-lucide="star" class="star-icon"></i>
+                      <i data-lucide="star" class="star-icon"></i>
+                      <i data-lucide="star" class="star-icon"></i>
+                    </div>
+                    <div class="quote-badge">
+                      <i data-lucide="quote" style="width: 18px; height: 18px;"></i>
+                    </div>
+                  </div>
+                  <p class="review-body-text">
+                    "I truly loved the work done by GrowUp Editing Agency. They are very hardworking and bring total satisfaction to the customer for their work. I would highly recommend them for video editing."
+                  </p>
+                  <div class="reviewer-profile">
+                    <div class="reviewer-avatar">SV</div>
+                    <div class="reviewer-info">
+                      <div class="reviewer-name">Dr. Shweta Verma</div>
+                      <div class="reviewer-role">Healthcare</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Review 4: Health-Veda Hospital -->
+              <div class="review-card-item">
+                <div class="testimonial-text-card">
+                  <div class="testimonial-card-header">
+                    <div class="review-stars" aria-label="5 out of 5 stars">
+                      <i data-lucide="star" class="star-icon"></i>
+                      <i data-lucide="star" class="star-icon"></i>
+                      <i data-lucide="star" class="star-icon"></i>
+                      <i data-lucide="star" class="star-icon"></i>
+                      <i data-lucide="star" class="star-icon"></i>
+                    </div>
+                    <div class="quote-badge">
+                      <i data-lucide="quote" style="width: 18px; height: 18px;"></i>
+                    </div>
+                  </div>
+                  <p class="review-body-text">
+                    "I am very much impressed by your editing skills. I name what I want and you do it instantly—that’s impressive. I’m not going for any video editing for social media posts for my Health-Veda Hospital. Thank you for your cooperation and help."
+                  </p>
+                  <div class="reviewer-profile">
+                    <div class="reviewer-avatar">HV</div>
+                    <div class="reviewer-info">
+                      <div class="reviewer-name">Health-Veda Hospital</div>
+                      <div class="reviewer-role">Healthcare & Hospital</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Review 5: Dr. Sudhir Rana -->
+              <div class="review-card-item">
+                <div class="testimonial-text-card">
+                  <div class="testimonial-card-header">
+                    <div class="review-stars" aria-label="5 out of 5 stars">
+                      <i data-lucide="star" class="star-icon"></i>
+                      <i data-lucide="star" class="star-icon"></i>
+                      <i data-lucide="star" class="star-icon"></i>
+                      <i data-lucide="star" class="star-icon"></i>
+                      <i data-lucide="star" class="star-icon"></i>
+                    </div>
+                    <div class="quote-badge">
+                      <i data-lucide="quote" style="width: 18px; height: 18px;"></i>
+                    </div>
+                  </div>
+                  <p class="review-body-text">
+                    "I like your editing skills personally. I have been working with you for around 3–4 months."
+                  </p>
+                  <div class="reviewer-profile">
+                    <div class="reviewer-avatar">SR</div>
+                    <div class="reviewer-info">
+                      <div class="reviewer-name">Dr. Sudhir Rana</div>
+                      <div class="reviewer-role">Healthcare</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Review 6: Dr Akram Qureshi -->
+              <div class="review-card-item">
+                <div class="testimonial-text-card">
+                  <div class="testimonial-card-header">
+                    <div class="review-stars" aria-label="5 out of 5 stars">
+                      <i data-lucide="star" class="star-icon"></i>
+                      <i data-lucide="star" class="star-icon"></i>
+                      <i data-lucide="star" class="star-icon"></i>
+                      <i data-lucide="star" class="star-icon"></i>
+                      <i data-lucide="star" class="star-icon"></i>
+                    </div>
+                    <div class="quote-badge">
+                      <i data-lucide="quote" style="width: 18px; height: 18px;"></i>
+                    </div>
+                  </div>
+                  <p class="review-body-text">
+                    "Just watched the final edit by Velor Edit — the video came out really clean and engaging. The transitions, pacing, subtitles, and overall cinematic feel were done very professionally. It keeps the audience hooked throughout and makes the medical information easy to understand. Really happy with the editing quality and effort put into the project. Looking forward to working on more videos together."
+                  </p>
+                  <div class="reviewer-profile">
+                    <div class="reviewer-avatar">AQ</div>
+                    <div class="reviewer-info">
+                      <div class="reviewer-name">Dr. Akram Qureshi</div>
+                      <div class="reviewer-role">Healthcare</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Carousel Navigation Controls -->
+          <div class="carousel-nav-controls">
+            <button class="carousel-btn" id="carouselPrevBtn" aria-label="Previous Testimonial">
+              <i data-lucide="chevron-left"></i>
+            </button>
+            <div class="carousel-dots" id="carouselDots"></div>
+            <button class="carousel-btn" id="carouselNextBtn" aria-label="Next Testimonial">
+              <i data-lucide="chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== INDUSTRIES WE WORK WITH ==================== -->
+    <section class="industries-section" id="industries">
+      <div class="container">
+        <div class="text-center">
+          <div class="section-tag light">
+            <i data-lucide="target" style="width: 15px; height: 15px;"></i>
+            Industries We Serve
+          </div>
+          <h2 class="section-title">Built for High-Growth Sectors</h2>
+        </div>
+
+        <div class="industries-grid">
+          <div class="industry-card">
+            <div class="industry-icon-wrap">
+              <i data-lucide="stethoscope"></i>
+            </div>
+            <h4>Doctors & Healthcare</h4>
+          </div>
+
+          <div class="industry-card">
+            <div class="industry-icon-wrap">
+              <i data-lucide="home"></i>
+            </div>
+            <h4>Real Estate</h4>
+          </div>
+
+          <div class="industry-card">
+            <div class="industry-icon-wrap">
+              <i data-lucide="briefcase"></i>
+            </div>
+            <h4>Entrepreneurs & Business Owners</h4>
+          </div>
+
+          <div class="industry-card">
+            <div class="industry-icon-wrap">
+              <i data-lucide="shopping-cart"></i>
+            </div>
+            <h4>Dropshipping & E-Commerce</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="contact-layout-grid">
+          <!-- Info Column -->
+          <div class="contact-info-panel">
+            <div class="section-tag light">
+              <i data-lucide="mail-check" style="width: 15px; height: 15px;"></i>
+              Get in Touch
+            </div>
+            <h2 class="section-title">Let's Create High-Impact Content For Your Business</h2>
+            <p class="contact-info-desc">
+              Have a project in mind or want to scale your video pipeline? Connect directly via WhatsApp for the fastest
+              reply or submit project requirements below.
+            </p>
+
+            <div class="contact-methods-list">
+              <!-- WhatsApp -->
+              <div class="contact-method-card">
+                <div class="contact-icon-box">
+                  <i data-lucide="message-circle"></i>
+                </div>
+                <div class="contact-method-details">
+                  <span>Direct WhatsApp</span>
+                  <a href="https://wa.me/916268366771?text=Hi%20Ediyn%20Media%20Agency%2C%20I%27d%20like%20to%20discuss%20a%20video%20editing%20project."
+                    target="_blank" rel="noopener noreferrer">+91 6268366771</a>
+                </div>
+              </div>
+
+              <!-- Phone Call -->
+              <div class="contact-method-card">
+                <div class="contact-icon-box">
+                  <i data-lucide="phone"></i>
+                </div>
+                <div class="contact-method-details">
+                  <span>Call Us Direct</span>
+                  <a href="tel:+916268366771">+91 6268366771</a>
+                </div>
+              </div>
+
+              <!-- Availability -->
+              <div class="contact-method-card">
+                <div class="contact-icon-box">
+                  <i data-lucide="clock"></i>
+                </div>
+                <div class="contact-method-details">
+                  <span>Agency Support</span>
+                  <strong>Monday – Saturday (Fast Turnaround)</strong>
+                </div>
+              </div>
+            </div>
+
+            <a href="https://wa.me/916268366771?text=Hi%20Ediyn%20Media%20Agency%2C%20I%27d%20like%20to%20discuss%20a%20video%20editing%20project."
+              target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="width: fit-content;">
+              <i data-lucide="send" style="width: 18px; height: 18px;"></i>
+              Start Instant WhatsApp Chat
+            </a>
+          </div>
+
+          <!-- Form Card -->
+          <div class="contact-form-card">
+            <h3>Send Project Details</h3>
+            <p>Fill out the form below and our team will get back to you within 24 hours.</p>
+
+            <!-- 
+              TODO: replace YOUR_FORM_ID with real Formspree ID after signup (e.g., https://formspree.io/f/xyzab123)
+            -->
+            <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+              <div class="form-group">
+                <label for="fullName" class="form-label">Your Name *</label>
+                <input type="text" id="fullName" name="name" class="form-input" placeholder="e.g. Dr. Aryan Sharma"
+                  required>
+              </div>
+
+              <div class="form-group">
+                <label for="contactContact" class="form-label">Phone / WhatsApp / Email *</label>
+                <input type="text" id="contactContact" name="contact" class="form-input"
+                  placeholder="e.g. +91 9876543210 or your@email.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="serviceType" class="form-label">Service Needed *</label>
+                <select id="serviceType" name="service" class="form-select" required>
+                  <option value="" disabled selected>Select a Service</option>
+                  <option value="Reel / Short Video Editing">Reel & Short-Form Video Editing</option>
+                  <option value="YouTube Long-Form Editing">YouTube Long-Form Video Editing</option>
+                  <option value="Branding & Visual Identity">Branding & Visual Identity</option>
+                  <option value="Thumbnail Design">High-CTR Thumbnail Design</option>
+                  <option value="Marketing Creatives & Ads">Marketing Creatives & Ads</option>
+                  <option value="Full Monthly Retainer">Full Monthly Retainer (All Services)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="projectDetails" class="form-label">Project Details / Message *</label>
+                <textarea id="projectDetails" name="message" class="form-textarea"
+                  placeholder="Tell us about your brand, video frequency, or specific goals..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" id="formSubmitBtn"
+                style="width: 100%; font-size: 1rem; padding: 1rem;">
+                <i data-lucide="send" style="width: 18px; height: 18px;"></i>
+                Submit Inquiry
+              </button>
+
+              <div class="form-feedback" id="formFeedback"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Col 1: Brand Info -->
+        <div class="footer-brand">
+          <div class="brand-logo-link" style="margin-bottom: 0.5rem;">
+            <img src="assets/brand/Ediyn-media-agency.jpg" alt="Ediyn Media Agency Logo" class="brand-logo-img">
+            <div class="brand-name">EDIYN <span>MEDIA</span></div>
+          </div>
+          <p>
+            Professional video editing, branding, and digital growth agency trusted by 3,000+ active businesses and
+            healthcare specialists.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://wa.me/916268366771" target="_blank" rel="noopener noreferrer" class="social-btn"
+              aria-label="WhatsApp">
+              <i data-lucide="message-circle"></i>
+            </a>
+            <!-- TODO: add real Instagram URL -->
+            <a href="https://wa.me/916268366771" target="_blank" rel="noopener noreferrer" class="social-btn"
+              aria-label="Instagram">
+              <i data-lucide="instagram"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation -->
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Our Leadership</a></li>
+            <li><a href="#reviews">Client Proof</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Services -->
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Reels & Shorts</a></li>
+            <li><a href="#services">YouTube Video Editing</a></li>
+            <li><a href="#services">Brand Identity Design</a></li>
+            <li><a href="#services">Thumbnail Design</a></li>
+            <li><a href="#services">Marketing Creatives</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Direct Contact -->
+        <div class="footer-col">
+          <h4>Direct Contact</h4>
+          <ul class="footer-links">
+            <li>
+              <a href="tel:+916268366771" style="display: flex; align-items: center; gap: 0.5rem;">
+                <i data-lucide="phone" style="width: 16px; height: 16px; color: var(--color-accent);"></i>
+                +91 6268366771
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/916268366771" target="_blank" rel="noopener noreferrer"
+                style="display: flex; align-items: center; gap: 0.5rem;">
+                <i data-lucide="message-circle" style="width: 16px; height: 16px; color: var(--color-accent);"></i>
+                WhatsApp: 6268366771
+              </a>
+            </li>
+            <li style="margin-top: 0.75rem; color: var(--color-text-muted-light); font-size: 0.88rem;">
+              Dedicated video production & creative solutions for modern brands.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="footer-bottom-bar">
+        <div>© 2026 Ediyn Media Agency. All rights reserved.</div>
+        <div>Engineered for Speed, Quality & Impact</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
