@@ -1186,10 +1186,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-method-details a, .contact-method-details strong {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 700;
   color: var(--color-text-dark);
   font-family: var(--font-heading);
+  word-break: break-word;
+  transition: color var(--transition-fast);
+}
+
+.contact-method-details a:hover {
+  color: var(--color-accent-dark);
 }
 
 /* Contact Form */
@@ -1315,6 +1321,7 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-text-muted-light);
   font-size: 0.92rem;
   transition: color var(--transition-fast);
+  word-break: break-word;
 }
 
 .footer-links a:hover {
